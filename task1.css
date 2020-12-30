@@ -1,4 +1,4 @@
-<style>
+
         html{
             height: 100%
         }
@@ -8,6 +8,7 @@
             background-repeat: no-repeat;
             background-image: url("DSC_0185-2.jpg");
             background-size: 100%;
+            text-align: center;
         }
         nav a{
             position:relative;
@@ -16,6 +17,7 @@
             padding: 10px;
             background-color: rgb(192, 207, 207);
             font-style: italic;
+            font-weight: bold;
             }
         body {
             background-image: url('DSC_0004.jpg');
@@ -48,9 +50,14 @@
             background-color: white;
             line-height: 30px;
         }
+        aside a{
+            display: inline-block;
+            background-color: rgb(233, 203, 203);
+            border-radius: 6px
+            
+        }
         .left{
             background-color: rgb(92, 112, 112);
             width: 30%;
             float: left;
-            padding: 2% 0;
-    </style>
+            padding: 2%;
